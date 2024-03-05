@@ -123,6 +123,7 @@ header {
     grid-template-columns: repeat(auto-fit, minmax(300px, auto));
     gap: 1rem;
     margin-top: 2rem;
+    
 }
 
 .box {
@@ -178,13 +179,13 @@ header {
     right: 0;
     padding: 7px;
     font-size: 20px;
-    color:gainsboro;
+    color:black;
     border-radius: 4px 0 4px 0;
-    background: black;
+    
 }
 
 .box .bx-cart:hover {
-    background: #000000;
+    
 }
 
 .new-container .box {

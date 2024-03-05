@@ -61,10 +61,10 @@ function calSum() {
 
     // Parcourez chaque article pour calculer le total
     for (var i = 0; i < article.length; i++) {
-        total += parseInt(article[i].querySelector('.price').innerText.replace('$', '')) * parseInt(article[i].querySelector('.quantity').innerText);
+        total += parseInt(article[i].querySelector('.price').innerText.replace('fcfa', '')) * parseInt(article[i].querySelector('.quantity').innerText);
     }
 
-    prixTotal.textContent = total.toFixed(2) + ' $'; 
+    prixTotal.textContent = total.toFixed(2) + ' fcfa'; 
 
 
 }

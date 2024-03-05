@@ -1,11 +1,9 @@
 body {
-    display:flex;
       font-family: Arial, sans-serif;
       background-color: #e60073;
     }
     
     .item {
-      display: flex;
       align-items: center;
       margin-bottom: 10px;
     }
